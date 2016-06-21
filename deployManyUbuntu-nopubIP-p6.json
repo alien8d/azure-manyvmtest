@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "manyzanytest06"
+    },
+      "vmDnsName": {
+      "value": "manyzanytest06"
+    },
+      "numberOfInstances": {
+      "value": 50
+    },
+    "availabilitySetName": {
+      "value": "avset06"
+    },
+     "adminUserName": {
+      "value": "azureadmin"
+    },
+      "adminPassword": {
+      "value": "Pass@word.1"
+    },
+      "imagePublisher": {
+      "value": "Canonical"
+    },
+      "imageOffer": {
+      "value": "UbuntuServer"
+    },
+      "imageSKU": {
+      "value": "14.04.2-LTS"
+    },
+      "vmSize": {
+      "value": "Standard_D2"
+    }
+  }
+}

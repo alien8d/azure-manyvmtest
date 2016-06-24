@@ -30,7 +30,7 @@
       "value": "14.04.2-LTS"
     },
       "vmSize": {
-      "value": "Standard_D14"
+      "value": "Standard_D1"
     }
   }
 }
